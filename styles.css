@@ -4,12 +4,26 @@ body {
     margin: 0;
 }
 
+#github {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    font-weight: 800;
+    background-color: #444444ad;
+    text-decoration: none;
+    color: white;
+}
+
+
 #infcontent {
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    scroll-snap-type: y mandatory;
 }
 
 .item {
